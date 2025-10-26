@@ -1,0 +1,16 @@
+{
+  "name": "dapcoin-auto-checkin",
+  "version": "1.0.0",
+  "description": "DapCoin Auto Daily Check-in Script",
+  "main": "checkin.js",
+  "type": "module",
+  "scripts": {
+    "start": "node checkin.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.8",
+    "axios": "^1.7.9",
+    "bs58": "^6.0.0",
+    "https-proxy-agent": "^7.0.6"
+  }
+}
